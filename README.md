@@ -17,3 +17,7 @@ Dies ist eine Vorlage für eine Bachelorarbeit an der Westfälischen Hochschule 
 - `hyperref` für Links
 - `longtable` für Tabellen über mehrere Seiten
 - `biblatex` für die Literaturverwaltung
+
+## Befehle zum kompilieren
+
+`lualatex -synctex=1 -interaction=nonstopmode %.tex|makeglossaries %|biber %|lualatex -synctex=1 -interaction=nonstopmode %.tex|lualatex -synctex=1 -interaction=nonstopmode %.tex|"C:/Program Files/Adobe/Acrobat DC/Acrobat/Acrobat.exe" %.pdf`
