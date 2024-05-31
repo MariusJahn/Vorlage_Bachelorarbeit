@@ -1,0 +1,125 @@
+% Dokumenteinstellungen und Anpassungen
+
+\input{konfiguration/pakete}
+\input{konfiguration/befehle}
+
+\input{styles/anpassungen}
+
+\include{glossar}
+\include{abkuerzungen}
+\include{listings}
+
+% Kapitel des Inhaltsverzeichnis zum Inhaltsverzeichnis hinzufügen
+%\setuptoc{toc}{totoc}
+
+\RedeclareSectionCommand[%
+  beforeskip=0pt,
+  afterskip=1.5\baselineskip
+]{chapter}
+
+\RedeclareSectionCommand[%
+  beforeskip=-1.0\baselineskip plus -0.75\baselineskip minus -0.5\baselineskip,
+  afterskip=0.5\baselineskip plus 0.25\baselineskip minus 0.125\baselineskip
+]{section}
+
+\RedeclareSectionCommand[%
+  beforeskip=-0.5\baselineskip plus -0.375\baselineskip minus -0.25\baselineskip,
+  afterskip=0.25\baselineskip plus 0.125\baselineskip minus 0.0625\baselineskip
+]{subsection}
+
+\RedeclareSectionCommand[%
+  beforeskip=0pt,
+  afterskip=2pt
+]{subsubsection}
+
+\makeglossaries
+\addbibresource{quellen.bib}
+
+\raggedbottom
+\begin{document}
+
+% Header stylen
+\clearpairofpagestyles
+\ihead{\raisebox{0pt}[\ht\strutbox]{\includegraphics[width=2cm,height=1cm]{wh_logo.png}}}
+\chead{\leftmark}
+\ohead{\pagemark}
+
+%footer stylen
+\ifoot*{}
+\cfoot*{}
+\ofoot*{}
+
+\include{titles/graduation}
+\include{titles/eidesstatt}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\newcounter{savepagearab}
+\newcounter{savepageroman}
+
+\title{Bachelorarbeit}
+\place{Gelsenkirchen}
+
+% Deckblätter einfügen
+\makeTitles
+
+\begin{onehalfspace}
+ 
+% Abstract und Vorworte
+\input{chapter/0_abstract.tex}
+\newpage
+
+% Inhaltsverzeichnis einfügen
+
+% Seitennummerierung in Römisch für die Verzeichnisse
+\pagenumbering{Roman}
+% Header bei Kapiteln einfügen
+\renewcommand*{\chapterpagestyle}{scrheadings}
+
+\setcounter{page}{7}
+\tableofcontents
+\newpage
+
+%\renewcommand{\listfigurename}{Darstellungsverzeichnis}
+%\renewcommand{\figurename}{Darst.}
+% Abbildungsverzeichnis einfügen
+\listoffigures
+
+\listoftables
+
+\lstlistoflistings
+
+% Abkürzungsverzeichnis einfügen
+%\thispagestyle{empty}
+\printglossary[type=\acronymtype,title=Abkürzungsverzeichnis, toctitle=Abkürzungsverzeichnis]
+\newpage
+
+% Aktuelle Seite speichern
+\setcounter{savepageroman}{\arabic{page}}
+\pagenumbering{arabic}
+
+
+\input{chapter/1_einleitung.tex}
+\input{chapter/2_theorie.tex}
+\input{chapter/3_konzeptionUndDesign.tex}
+\input{chapter/4_backend.tex}
+\input{chapter/5_frontend.tex}
+\input{chapter/6_fazit.tex}
+\newpage 
+%\pagenumbering{Roman}
+%\setcounter{page}{\thesavepageroman}
+\printglossary 
+
+% Bibliografie im .bib Format einfügen
+\printbibliography[title=Literaturverzeichnis]
+
+\input{chapter/anhang.tex}
+\newpage
+
+\end{onehalfspace}
+
+
+
+%\bibliography{quellen}\addcontentsline{toc}{section}{\protect{}Literaturverzeichnis}%
+\end{document}
+

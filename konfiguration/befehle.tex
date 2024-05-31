@@ -1,0 +1,98 @@
+%\newcommand*{\footcite}[1]{\footnote{\citep{#1}}}
+
+% Hintergrundbild einfügen
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{images/deckblatt.png}%
+\vfill
+}}}
+
+% Neuer Befehl um Subsubsubkapitel schreiben zu können
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+
+% Schriftgröße der Fußnote ändern
+\renewcommand{\footnotesize}{\normalsize}
+
+%Hilfsbefehl für Glossar UND Abkürzung
+\newcommand{\newdefinedabbreviation}[4]{
+    \newglossaryentry{#1}{
+        text={#2},
+        long={#3},
+        name={\glsentrylong{#1} (\glsentrytext{#1})},
+        first={\glsentryname{#1}},
+        firstplural={\glsentrylong{#1}\glspluralsuffix (\glsentryname{#1}\glspluralsuffix )},
+        description={#4}
+    }
+}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\newcommand*{\newdualentry}[5][]{%
+  \newglossaryentry{main-#2}{name={#4},%
+  text={#3\glsadd{#2}},%
+  description={{#5}},%
+  #1
+  }%
+  \newglossaryentry{#2}{
+  type=\acronymtype,
+  first={#4 (#3)},
+  name={#3\glsadd{main-#2}},
+  description={\glslink{main-#2}{#4}}
+  }%
+}
+
+% Erzeugen der Deckblätter
+\newcommand{\makeTitles}{
+
+% Entfernen der Seitenzahlen und BackroundPic als Hintergrund nutzen
+\pagenumbering{gobble}
+\AddToShipoutPicture{\BackgroundPic}
+
+% Variablen für das Deckblatt 1
+\gradeType{Bachelor of Science (B.Sc.)}
+\germanTitle{Deutscher Titel}
+\englishTitle{Englischer Titel}
+\authorFirstname{Vorname Autor1}
+\authorLastname{Nachname Autor1}
+\authorBirthplace{Geburtsort Autor1}
+\discipline{Fachbereich}
+\courseOfStudies{Studiengang}
+\matrikelnr{Matrikelnummer}
+\submitDate{{\today}}
+\firstExaminer{Prof. Dr. Erster Prüfer}
+\secondExaminer{Prof. Dr. Zweiter Prüfer}
+
+% Titelblatt 1 erzeugen
+\maketitle
+\let\cleardoublepage\clearpage
+% Eidesstattliche Erklärung 1 erzeugen
+\makeeidesstatt
+\let\cleardoublepage\clearpage
+
+% Variablen für das Deckblatt 2
+\gradeType{Bachelor of Science (B.Sc.)}
+\germanTitle{Deutscher Titel}
+\englishTitle{Englischer Titel}
+\authorFirstname{Vorname Autor2}
+\authorLastname{Nachname Autor2}
+\authorBirthplace{Geburtsort Autor2}
+\discipline{Fachbereich}
+\courseOfStudies{Studiengang}
+\matrikelnr{Matrikelnummer}
+\submitDate{{\today}}
+\firstExaminer{Prof. Dr. Erster Prüfer}
+\secondExaminer{Prof. Dr. Zweiter Prüfer}
+
+% Titelblatt 2 erzeugen
+\maketitle
+
+% Eidesstattliche Erklärung 2 erzeugen
+\makeeidesstatt
+
+\ClearShipoutPicture
+}

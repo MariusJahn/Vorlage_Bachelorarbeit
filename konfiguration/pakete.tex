@@ -1,0 +1,123 @@
+\documentclass[chapterprefix=false, 12pt, a4paper, oneside, parskip=half, listof=totoc, bibliography=totoc, numbers=noendperiod, headinclude, twoside]{scrreprt}
+
+%Zeilenabstand einstellen
+\usepackage{setspace}
+
+%leertext einfügen
+\usepackage{lipsum}
+
+% Für die Erstellung des Hintergrundbilds / shipout befehl
+\usepackage{eso-pic}
+
+%Anpassung der Seitenränder (nach Theisen)
+\usepackage[top=40mm,bottom=20mm,left=40mm,right=20mm,headsep = \baselineskip, footskip = \dimexpr2\baselineskip+3mm\relax,]{geometry}
+
+% Representation of Directory Structures
+\usepackage{dirtree}
+
+%Unterstützung von Umlauten und anderen Sonderzeichen (UTF-8)
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\setlength{\emergencystretch}{1em}
+
+% Schriftart Garamond (nach Theisen)
+%\usepackage{ebgaramond}
+
+% Schriftart Palatino (nach Theisen)
+\usepackage{palatino}
+
+\usepackage{csquotes}
+%\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=nyt
+]{biblatex}
+
+
+%\bibliographystyle{agsm}
+
+\usepackage{tabularx} % in the preamble
+
+%Erlaubt unter anderem Umbrüche captions
+\usepackage{caption}
+
+%Stichwortverzeichnis
+\usepackage{imakeidx}
+
+%Kompakte Listen
+\usepackage{paralist}
+
+%Zitate besser formatieren und darstellen
+\usepackage{epigraph}
+
+%Ermöglicht Verknüpfungen innerhalb des Dokumentes (e.g. for PDF), Links werden durch "hidelink" nicht explizit hervorgehoben
+\usepackage[hidelinks,german]{hyperref}
+
+\usepackage{pdfpages}
+
+%Glossar, Stichwortverzeichnis (Akronyme werden als eigene Liste aufgeführt)
+\usepackage[toc, acronym, shortcuts]{glossaries}
+
+%Anpassung von Kopf- und Fußzeile
+%beeinflusst die erste Seite des Kapitels
+\usepackage[automark, headsepline, autooneside=false]{scrlayer-scrpage}
+
+%Tweaks für scrbook
+\usepackage{scrhack}
+%\usepackage{fancyhdr}
+
+%\input{resources/styles/header_footer}
+\setlength{\parindent}{0em}
+
+%\renewcommand\chapter{\thispagestyle{plain}}
+
+%Auskommentieren für die Verkleinerung des vertikalen Abstandes eines neuen Kapitels
+%\renewcommand*{\chapterheadstartvskip}{\vspace*{.25\baselineskip}}
+%\renewcommand*{\chapterheadendvskip}{\vspace*{.25\baselineskip}}
+
+
+%Verbesserte Darstellung der Buchstaben zueinander
+\usepackage[stretch=10]{microtype}
+
+%Deutsche Bezeichnungen für angezeigte Namen (z.B. Inhaltsverzeichnis etc.)
+\usepackage[ngerman]{babel}
+
+%Einfachere Zitate
+\usepackage{epigraph}
+
+%Unterstützung der H Positionierung (keine automatische Verschiebung eingefügter Elemente)
+\usepackage{float}
+
+%Erlaubt Umbrüche innerhalb von Tabellen
+\usepackage{tabularx}
+
+%Erlaubt Seitenumbrüche innerhalb von Tabellen
+\usepackage{longtable}
+
+%Erlaubt die Darstellung von Sourcecode mit Highlighting
+\usepackage{listings}
+
+%Vektorgrafiken
+%\usepackage{tikz}
+
+%Grafiken (wie jpg, png, etc.)
+\usepackage{graphicx}
+
+%Grafiken von Text umlaufen lassen
+\usepackage{wrapfig}
+
+\usepackage[dvipsnames]{xcolor}
+
+% Checkmarks
+\usepackage{pifont}
+
+%Pseudocode einfügen
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+%Für lange Tabellen
+\usepackage{longtable}
+\usepackage{longfigure}
+\usepackage{capt-of}

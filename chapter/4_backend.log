@@ -1,0 +1,3664 @@
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.2.24)  2 MAY 2024 02:10
+ restricted system commands enabled.
+**4_backend.tex
+(./4_backend.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-13>
+Lua module: luaotfload 2024-02-14 3.27 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Mariu/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/Mariu/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/Mariu/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+! Undefined control sequence.
+l.1 \chapter
+          {Implementierung des Backends \authorShortMarius}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{I
+            mplementierung des Backends \authorShortMarius}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.1 ...plementierung des Backends \authorShortMarius
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2 ... Dafür bietet sich die Erstellung eines \acl
+                                                  {er}-Diagramms an. Ein ers...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]Implementierung
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{figure}
+                 [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{figure} [
+                  ht]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[][ht] 
+ []
+
+! Undefined control sequence.
+l.6         \includegraphics
+                          [width=\textwidth]{ERM Agenda}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.6         \includegraphics[width=\textwidth]
+                                            {ERM Agenda}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.6         \includegraphics[width=\textwidth]
+                                            {ERM Agenda}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7         \caption
+                  {ER-Diagramm}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.12 Mit der Hilfe des \acs
+                         {er}-Diagramms erkennt man, in welchem Zusammenhang...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
+[]Mit
+ []
+
+! Undefined control sequence.
+l.14 \section
+           {Datenbanksystem}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--16
+[]Datenbanksystem
+ []
+
+! Undefined control sequence.
+l.17 \subsection
+              {Voraussetzungen für das Datenbanksystem}\label{sec:vorausset...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+8.
+(C:/Users/Mariu/AppData/Local/Programs/MiKTeX/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--19
+[]Voraussetzungen
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 17--19
+gro\OT1/lmr/m/n/10 \nullfont e
+ []
+
+
+! LaTeX Error: Environment description undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{description}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \item[\textbf{Open Source}]
+                               Damit keine Kosten entstehen sollte die Lösu...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 21--22
+Au\OT1/lmr/m/n/10 \nullfont erdem
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 21--22
+Au\OT1/lmr/m/n/10 \nullfont enstehende
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \item[\textbf{On Premises}]
+                               Das Datenbanksystem sollte nicht ausschlie{\s...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 22--23
+ausschlie\OT1/lmr/m/n/10 \nullfont lich
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \item[\textbf{Skalierbarkeit}]
+                                  Bei Bedarf sollte es Möglich sein, das Sy...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 23--24
+vergrö\OT1/lmr/m/n/10 \nullfont ern
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \item[\textbf{Volltextsuche}]
+                                 Um auch die Beschreibung einer \acs{ki}-Lö...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.24 ...tsuche}] Um auch die Beschreibung einer \acs
+                                                  {ki}-Lösung durchsuchen z...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \item[\textbf{Java Kompatibel}]
+                                   Mit Spring Boot als Vorgabe sollte das Sy...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{description}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.28 \subsection
+              {SQL vs. NoSQL}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 ...e weitere Funktionen und Eigenschaften. \acs
+                                                  {sql} Datenbanksysteme sin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 ...e sind schon seit Jahren bewährt \parencite
+                                                  [vgl.][193]{sql_and_nosql}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.29 ...t Jahren bewährt \parencite[vgl.][193]{sql_
+                                                  and_nosql}. Sie werden vie...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+! Extra }, or forgotten $.
+l.29 ...ewährt \parencite[vgl.][193]{sql_and_nosql}
+                                                  . Sie werden vielfältig e...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+luaotfload | db : Font names database loaded from C:/Users/Mariu/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: File not foun
+d: "lmroman10-bold".
+! Missing $ inserted.
+<inserted text> 
+$
+l.30 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--30
+[]SQL
+ []
+
+
+Overfull \hbox (863.39055pt too wide) in paragraph at lines 28--30
+[vgl.][193]sql$[][]\OML/cmm/m/it/10 nd[]osql:Siewerdenvielfltigeingesetztundsind
+nahezufrjedenBereichanwendbar:ImGegensatzdazugibtesdieNoSQLDatenbanksysteme; wel
+chesichnocheinmalinGraphdatenbanksysteme; Key \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (1337.84927pt too wide) in paragraph at lines 28--30
+\OML/cmm/m/it/10 ValueDatenbanksysteme; DokumentenorientierteDatenbanksystemeund
+vieleweitereVarianten[]unterteilenlassen:JedeVariantehatihreindividuellen; anwen
+dungsspezifischenStrken:AllerdingsbringendieseauchNachteilemitsich; welchejenach
+Anwendungsfallaberauchgeringausfallenknnen:$ 
+ []
+
+! Undefined control sequence.
+l.31 \subsection
+              {Suchmaschinen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--33
+[]Suchmaschinen
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 31--33
+Au\OT1/lmr/m/n/10 \nullfont erdem
+ []
+
+! Undefined control sequence.
+l.34 Auf db-engines.com \parencite
+                                {db_engines} kann man unterschiedliche Suchm...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.34 Auf db-engines.com \parencite{db_
+                                    engines} kann man unterschiedliche Suchm...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.34 Auf db-engines.com \parencite{db_engines}
+                                             kann man unterschiedliche Suchm...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.34 ...tenen Jobs mit dieser Technologie \parencite
+                                                  [vgl.][]{db_engine_ranking...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.35 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
+[]Auf
+ []
+
+
+Overfull \hbox (423.38426pt too wide) in paragraph at lines 34--35
+db$[][]\OML/cmm/m/it/10 ngineskannmanunterschiedlicheSuchmaschinenimVergleichbet
+rachten:DieRanglisteaufdb \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (1154.14737pt too wide) in paragraph at lines 34--35
+\OML/cmm/m/it/10 engines:comwirddurchverschiedeneFaktorenermittelt:Dazugehrenz:B
+:dieErwhnungenderTechnologieaufWebseitenoderdieAnzahlderangebotenenJobsmitdieser
+Technologie\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 vgl:\OT1/cmr/m/n/10 ][][]\OML/cmm/
+m/it/10 :EsfolgteineEinschtzungdervierbeliebtestenSuchmaschinen:$ 
+ []
+
+! Undefined control sequence.
+l.36 \subsubsection
+                 {Elasticsearch}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 ... diesem Prototyp eine eigene Suche für \acs
+                                                  {ki}-Lösungen entstehen s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 ...gt die Elastic-Lizenz 2.0 (ELv2) \parencite
+                                                  [vgl.][]{elastic_faq} den ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.37 ...izenz 2.0 (ELv2) \parencite[vgl.][]{elastic_
+                                                  faq} den Ansprüchen vollu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.37 ...z 2.0 (ELv2) \parencite[vgl.][]{elastic_faq}
+                                                   den Ansprüchen vollumfä...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.38 einer \acl
+             {etl} \acs{etl}-Pipeline wird ohne nennenswerten Mehraufwand er...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 einer \acl{etl} \acs
+                       {etl}-Pipeline wird ohne nennenswerten Mehraufwand er...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.39 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 36--39
+[]Elasticsearch
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 36--39
+au\OT1/lmr/m/n/10 \nullfont en
+ []
+
+
+Overfull \hbox (1536.05418pt too wide) in paragraph at lines 36--39
+[vgl.][]elastic$[][]\OML/cmm/m/it/10 aqdenAnsprchenvollumfnglich:Elasticsearchbi
+eteteinevielfltigeAuswahlanFunktionenundTools:DiesebeinhaltenindividuelleFeature
+sfrdieErstellungeinereigenenSucheoderMonitoringSysteme; umdieSucheunddiegenutzte
+nDatenzuberwachen:AuchSicherheitsfeatureswerdenbeiElasticsearchbercksichtigt:Sog
+ardieEinrichtungeiner[][] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (1230.2997pt too wide) in paragraph at lines 36--39
+\OML/cmm/m/it/10 PipelinewirdohnenennenswertenMehraufwandermglicht:Trotzalldiese
+rVorteile; istzuerwhnen; dasseinWechselderLizenznichtausgeschlossenwerdenkann:Es
+kannsomitjederzeitdazukommen; dassdieLizenzsichndertunddeswegenfrbestimmteZwecke
+nichtmehrkostenlosist:$ 
+ []
+
+! Undefined control sequence.
+l.40 \subsubsection
+                 {Splunk}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--42
+[]Splunk
+ []
+
+! Undefined control sequence.
+l.43 \subsubsection
+                 {Solr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 ... Apache Software Foundation entwickelte \gls
+                                                  {openSource} Lösung. Solr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 ...somit auch einsteigerfreundlicher \parencite
+                                                  [vgl.][]{solr_elastic}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.44 ...steigerfreundlicher \parencite[vgl.][]{solr_
+                                                  elastic}.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.44 ...reundlicher \parencite[vgl.][]{solr_elastic}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.45 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--45
+[]Solr
+ []
+
+
+Overfull \hbox (31.60966pt too wide) in paragraph at lines 43--45
+[vgl.][]solr$[][]\OML/cmm/m/it/10 lastic:$ 
+ []
+
+! Undefined control sequence.
+l.46 \subsubsection
+                 {OpenSearch}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...ht mehr vermarktet werden durften \parencite
+                                                  [vgl.][]{elastic_opensearc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.47 ...t werden durften \parencite[vgl.][]{elastic_
+                                                  opensearch}. Seitdem gibt ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.47 ...rften \parencite[vgl.][]{elastic_opensearch}
+                                                  . Seitdem gibt es den Quel...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 47.
+
+! Undefined control sequence.
+l.48 \parencite
+             [vgl.][]{elastic_opensearch2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.49 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--49
+[]OpenSearch
+ []
+
+
+Overfull \hbox (22.84001pt too wide) in paragraph at lines 46--49
+\TU/lmr/bx/n/10 Fork
+ []
+
+
+Overfull \hbox (1583.2422pt too wide) in paragraph at lines 46--49
+[vgl.][]elastic$[][]\OML/cmm/m/it/10 pensearch:SeitdemgibtesdenQuelloffenenDiens
+tOpenSearch:GrundstzlichbietetOpenSearchdiegleichenFeatures; dieauchElasticsearc
+hbis\OT1/cmr/m/n/10 2021\OML/cmm/m/it/10 entwickelthatan:DurchdenLizenzwechselha
+tOpenSearchanFunktionalitteingeb\OT1/cmr/m/n/10 \OML/cmm/m/it/10 t:Allerdingswe
+rdenverloreneFeaturesdurchdieOpenSourceCommunityundAmazonstetignachgeliefert:\O
+T1/cmr/m/n/10 [\OML/cmm/m/it/10 vgl:\OT1/cmr/m/n/10 ][][]$ 
+ []
+
+! Undefined control sequence.
+l.50 \subsubsection
+                 {Gegenüberstellung der Suchmaschinen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.51 In der Gegenüberstellung \hyperref
+                                      [tab:Gegenüberstellung der Suchmaschi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.51 ... die zuvor aufgestellten Kriterien \hyperref
+                                                  [sec:voraussetzungen]{[s. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 50--52
+[]Gegenüberstellung
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--54
+[]einmal
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \begin{table}
+                [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 55--56
+[][H] 
+ []
+
+! Undefined control sequence.
+l.60  Open Source & \cmark
+                         & \xmark & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60  Open Source & \cmark & \xmark
+                                  & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60  Open Source & \cmark & \xmark & \cmark
+                                           & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...n Source & \cmark & \xmark & \cmark & \cmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.61  On Premises & \cmark
+                         & \cmark & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.61  On Premises & \cmark & \cmark
+                                  & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.61  On Premises & \cmark & \cmark & \cmark
+                                           & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.61 ...Premises & \cmark & \cmark & \cmark & \cmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62  Skalierbar & \cmark
+                        & \cmark & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62  Skalierbar & \cmark & \cmark
+                                 & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62  Skalierbar & \cmark & \cmark & \cmark
+                                          & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62  Skalierbar & \cmark & \cmark & \cmark & \cmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63  Volltextsuche & \cmark
+                           & \cmark & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63  Volltextsuche & \cmark & \cmark
+                                    & \cmark & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63  Volltextsuche & \cmark & \cmark & \cmark
+                                             & \cmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 ...extsuche & \cmark & \cmark & \cmark & \cmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64  Java-Unterstützung & \cmark
+                                 & \cmark & \cmark & \cmark \\ [1ex]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64  Java-Unterstützung & \cmark & \cmark
+                                          & \cmark & \cmark \\ [1ex]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64  Java-Unterstützung & \cmark & \cmark & \cmark
+                                                   & \cmark \\ [1ex]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 ...tützung & \cmark & \cmark & \cmark & \cmark
+                                                   \\ [1ex]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \caption
+           {Gegenüberstellung der Suchmaschinen}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \end{table}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.72 ... in Spring Boot unterstützt wird \parencite
+                                                  [vgl.][]{spring_solr}. Ope...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.72 ...unterstützt wird \parencite[vgl.][]{spring_
+                                                  solr}. OpenSearch ist auch...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.72 ...stützt wird \parencite[vgl.][]{spring_solr}
+                                                  . OpenSearch ist auch eine...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 72.
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 72.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.73 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 72--73
+[]Alle
+ []
+
+
+Overfull \hbox (913.34435pt too wide) in paragraph at lines 72--73
+[vgl.][]spring$[][]\OML/cmm/m/it/10 olr:OpenSearchistaucheinegutumsetzbareOption
+; allerdingsistdieDokumentationunterSpringBootnichtsogut:Schlie\OT1/cmr/m/n/10 
+\OML/cmm/m/it/10 lichistSplunknichtausgewhltworden; weildieFirmanurkommerzielle
+Lsungenanbietet:$ 
+ []
+
+! Undefined control sequence.
+l.74 \subsection
+              {Das Many-to-Many Problem}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 ...beitet, da Speicher günstig ist. \textquote
+                                                  {Although this duplication...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 ...s of an artifact when necessary.} \parencite
+                                                  [196]{sql_nosql_manytomany...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.75 ...tifact when necessary.} \parencite[196]{sql_
+                                                  nosql_manytomany} Allerdin...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.75 ...sary.} \parencite[196]{sql_nosql_manytomany}
+                                                   Allerdings gibt es bei El...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.76 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ö (U+00F6) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ä (U+00E4) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 74--76
+[]Das
+ []
+
+
+Overfull \hbox (1227.6805pt too wide) in paragraph at lines 74--76
+[196]sql$[][]\OML/cmm/m/it/10 osql[]anytomanyAllerdingsgibtesbeiElasticsearchkei
+neKontrollmglichkeitenumdiereferentielleIntegrittzuwahren:Dasbedeutet; dassmanen
+twedermitdupliziertenDatenundevtl:fehlendenReferenzenlebt; odereineeigeneImpleme
+ntierungfrsolcheMechanismenfindenmuss:$ 
+ []
+
+! Undefined control sequence.
+l.78 \subsection
+              {Die Daten des Prototyps}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 78--80
+[]Die
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 78--80
+folgenderma\OT1/lmr/m/n/10 \nullfont en
+ []
+
+! Undefined control sequence.
+l.82 \lstinputlisting
+                   [numbers=none, language=json, caption={Solution.json}, ca...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 82--83
+[][numbers=none,
+ []
+
+! Undefined control sequence.
+l.84 \lstinputlisting
+                   [numbers=none, language=json, caption={Usecase.json}, cap...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 84--85
+[][numbers=none,
+ []
+
+! Undefined control sequence.
+l.86 \lstinputlisting
+                   [numbers=none, language=json, caption={Industry.json}, ca...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--87
+[][numbers=none,
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 88--89
+[]Diese
+ []
+
+! Undefined control sequence.
+l.90 \section
+           {Spring Boot Server}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 Da die verschiedenen Teams des \acs
+                                      {ifis} alle Spring Boot als Backend Fr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 90--92
+[]Spring
+ []
+
+! Undefined control sequence.
+l.93 \subsection
+              {Setup}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 93--95
+[]Setup
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \begin{figure}
+                 [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--97
+[][H] 
+ []
+
+! Undefined control sequence.
+l.98         \includegraphics
+                           [width=\textwidth]{spring_init}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.98         \includegraphics[width=\textwidth]
+                                             {spring_init}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.98         \includegraphics[width=\textwidth]
+                                             {spring_init}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.98 ...  \includegraphics[width=\textwidth]{spring_
+                                                  init}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.98 ...cludegraphics[width=\textwidth]{spring_init}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99         \caption
+                   {Der Spring Initializr \parencite{spring_init}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.99 ...   \caption{Der Spring Initializr \parencite
+                                                  {spring_init}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end{center}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end{center}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end{center}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.101         \end{center}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.101         \end{center}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (154.08401pt too wide) in paragraph at lines 98--103
+[width=]spring$[][]\OML/cmm/m/it/10 nit[][]$
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--105
+[]Zusätzlich
+ []
+
+! Undefined control sequence.
+l.106 \subsection
+               {Die Ordnerstruktur}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.107 ...die Ordner pro Feature anzulegen \parencite
+                                                  {spring_structure}. In \hy...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.107 ...er pro Feature anzulegen \parencite{spring_
+                                                  structure}. In \hyperref[f...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.107 ...ture anzulegen \parencite{spring_structure}
+                                                  . In \hyperref[fig:Feature...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.107 ... \parencite{spring_structure}. In \hyperref
+                                                  [fig:Featurebasierte Ordne...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.108 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü (U+00FC) in font cmmi10!
+Missing character: There is no ü (U+00FC) in font cmmi10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--108
+[]Die
+ []
+
+
+Overfull \hbox (78.34808pt too wide) in paragraph at lines 106--108
+spring$[][]\OML/cmm/m/it/10 tructure:In\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 fig \O
+T1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (327.92708pt too wide) in paragraph at lines 106--108
+\OML/cmm/m/it/10 FeaturebasierteOrdnerstruktur\OT1/cmr/m/n/10 ][]\OML/cmm/m/it/
+10 wirdeinBeispieldafrdargestellt:$ 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 \begin{figure}
+                  [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.110         \dirtree
+                    {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 109--124
+[][H]
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125         \caption
+                    {Featurebasierte Ordnerstruktur}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.131 ...g für eine Ordnerstruktur ist in \hyperref
+                                                  [fig:Controller-Service-Re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--132
+[]ein
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \begin{figure}
+                  [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.134        \dirtree
+                   {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 133--154
+[][H]
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155         \caption
+                    {Controller-Service-Repository Ordnerstruktur}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 160--161
+[]In
+ []
+
+! Undefined control sequence.
+l.162 \subsection
+               {MVC-Muster}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.163 ...iterhin vom Frontend dargestellt.\parencite
+                                                  [vgl.][78]{webapi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 162--164
+[]MVC-
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 162--164
+flie\OT1/lmr/m/n/10 \nullfont en
+ []
+
+! Undefined control sequence.
+l.165 \subsection
+               {Service-Oriented Architecture}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 165--167
+[]Service-
+ []
+
+! Undefined control sequence.
+l.168 \subsection
+               {Repository}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 168--170
+[]Repository
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 171--172
+[]TODO 
+ []
+
+! Undefined control sequence.
+l.173 \subsection
+               {Dependency Injection}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 173--175
+[]Dependency
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 176--177
+[]Durch
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 178--179
+[]TODO 
+ []
+
+! Undefined control sequence.
+l.180 \subsection
+               {Strategie-Muster}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 180--182
+[]Strategie-
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 \begin{figure}
+                   [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 183--184
+[][H] 
+ []
+
+! Undefined control sequence.
+l.185         \includegraphics
+                            [width=\textwidth]{strategy}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.185         \includegraphics[width=\textwidth]
+                                              {strategy}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.185         \includegraphics[width=\textwidth]
+                                              {strategy}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186         \caption
+                    {Beispiel Strategy-Muster \parencite[433]{architekturmus...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.186 ...caption{Beispiel Strategy-Muster \parencite
+                                                  [433]{architekturmuster}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.191 \section
+            {Docker}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.192 ...auso funktioniert, wie erwartet. \parencite
+                                                  [vgl.][29]{praxiswissen_do...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.192 ...rwartet. \parencite[vgl.][29]{praxiswissen_
+                                                  docker}. Der Einfachheit h...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.192 .... \parencite[vgl.][29]{praxiswissen_docker}
+                                                  . Der Einfachheit halber w...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.193 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 191--193
+[]Docker
+ []
+
+
+Overfull \hbox (209.973pt too wide) in paragraph at lines 191--193
+[vgl.][29]praxiswissen$[][]\OML/cmm/m/it/10 ocker:DerEinfachheithalberwirdeinedo
+cker \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (417.81761pt too wide) in paragraph at lines 191--193
+\OML/cmm/m/it/10 compose:ymleingerichtet:Indieserstehenallenotwendigenservices; dieverwendetwerdensollen:$ 
+ []
+
+! Undefined control sequence.
+l.194 \subsection
+               {Elasticsearch Container}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195 ...ten Sicherheitseinstellungen wie z. B. \acs
+                                                  {cors} ausgeschaltet, dami...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 194--196
+[]Elasticsearch
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 194--196
+Au\OT1/lmr/m/n/10 \nullfont erdem
+ []
+
+! Undefined control sequence.
+l.197 \subsection
+               {Kibana Container}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 197--199
+[]Kibana
+ []
+
+! Undefined control sequence.
+l.200 \subsection
+               {Nginx Web-Server Container}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 200--202
+[]Nginx
+ []
+
+! Undefined control sequence.
+l.203 \section
+            {Elasticsearch}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 203--205
+[]Elasticsearch
+ []
+
+! Undefined control sequence.
+l.206 \subsection
+               {Setup}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.207 ... kann, wird eine Konfiguration s. \hyperref
+                                                  [fig:Beispiel Elasticsearc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 206--208
+[]Setup
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel Elasticsearch Configu...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.218 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 210--219
+[][numbers=none,
+ []
+
+! Undefined control sequence.
+l.220 \subsection
+               {Kibana}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 220--222
+[]Kibana
+ []
+
+! Undefined control sequence.
+l.223 \subsection
+               {Die wichtigsten Anwendungsfälle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 223--225
+[]Die
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 226--226
+[] 
+ []
+
+! Undefined control sequence.
+l.227     \item hole alle \acs
+                            {ki}-Lösungen
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 232--233
+[]Weiterhin
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 234--234
+[] 
+ []
+
+! Undefined control sequence.
+l.235     \item hole die nächsten 10 \acs
+                                        {ki}-Lösungen
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 240--241
+[]Die
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 242--242
+[] 
+ []
+
+! Undefined control sequence.
+l.243     \item hole alle \acs
+                            {ki}-Lösungen, die die Anforderungen des Filter...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.244     \item hole alle \acs
+                            {ki}-Lösungen, die zu den Suchtermen passen
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 248--249
+[]Da
+ []
+
+! Undefined control sequence.
+l.250 \subsection
+               {Elasticsearch Datentypen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 250--252
+[]Elasticsearch
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 250--252
+gro\OT1/lmr/m/n/10 \nullfont e
+ []
+
+
+Overfull \hbox (22.85pt too wide) in paragraph at lines 250--252
+\TU/lmr/bx/n/10 Text\nullfont ,
+ []
+
+
+Overfull \hbox (40.44pt too wide) in paragraph at lines 250--252
+\TU/lmr/bx/n/10 Boolean
+ []
+
+
+Overfull \hbox (28.8pt too wide) in paragraph at lines 250--252
+\TU/lmr/bx/n/10 Num-
+ []
+
+
+Overfull \hbox (21.26001pt too wide) in paragraph at lines 250--252
+\TU/lmr/bx/n/10 bers\nullfont .
+ []
+
+
+Overfull \hbox (34.94pt too wide) in paragraph at lines 250--252
+\TU/lmr/bx/n/10 Nested\nullfont .
+ []
+
+! Undefined control sequence.
+l.254 \subsection
+               {Object Document Mapping}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.255 ...nbanksystemen, Object-Document-Mapper (\acs
+                                                  {odm}). Diese wandeln Obje...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 254--256
+[]Object
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258 \begin{lstlisting}
+                      [numbers=none, caption={Usecase.kt}, captionpos=b]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 258--263
+[][numbers=none,
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 264--266
+[]@Field(type
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 267--269
+[]@Field(type
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 270--272
+[]@Field(type
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 273--275
+[])
+ []
+
+! Undefined control sequence.
+l.277 \subsection
+               {Indizes anlegen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 277--280
+[]Indizes
+ []
+
+
+Overfull \hbox (39.51999pt too wide) in paragraph at lines 277--280
+\TU/lmr/m/it/10 saveAll()
+ []
+
+! Undefined control sequence.
+l.281 \subsection
+               {Textanalyse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 281--283
+[]Textanalyse
+ []
+
+! Undefined control sequence.
+l.284 \subsubsection
+                  {Tokenisierung}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 284--286
+[]Tokenisierung
+ []
+
+! Undefined control sequence.
+l.287 \subsubsection
+                  {Normalisierer}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 287--289
+[]Normalisierer
+ []
+
+! Undefined control sequence.
+l.291 \subsubsection
+                  {Analysierer}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 290--293
+[]z.B.
+ []
+
+! Undefined control sequence.
+l.294 \subsection
+               {Kosten von Abfragen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 294--296
+[]Kosten
+ []
+
+! Undefined control sequence.
+l.297 \subsection
+               {Scoring von Abfragen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 297--301
+[]Scoring
+ []
+
+! Undefined control sequence.
+l.302 \subsection
+               {Spring Data Repositories}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 302--303
+[]Spring
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 304--305
+[]Die
+ []
+
+
+Overfull \hbox (22.12pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 Elas-
+ []
+
+
+Overfull \hbox (14.57002pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 tic-
+ []
+
+
+Overfull \hbox (55.47003pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 searchRepos-
+ []
+
+
+Overfull \hbox (6.65001pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (17.51001pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 tory\nullfont .
+ []
+
+
+Overfull \hbox (19.93pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 find-
+ []
+
+
+Overfull \hbox (21.11998pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 All()
+ []
+
+
+Overfull \hbox (31.69pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/it/10 count()
+ []
+
+! Undefined control sequence.
+l.307 \lstinputlisting
+                    [numbers=none, caption={SolutionRepository}, captionpos=...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 307--308
+[][numbers=none,
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel FindByNameAndPrice}, ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 309--310
+[][numbers=none,
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.314 { "query_
+             string" : { "query" : "?", "fields" : [ "name" ] } },
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.314 ... { "query" : "?", "fields" : [ "name" ] } }
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.317 }
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.318 }
+     }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.318 }}
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.319 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.319 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.319 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.319 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.319 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 311--320
+[]"query"
+ []
+
+
+Overfull \hbox (37.80626pt too wide) in paragraph at lines 311--320
+"query$[][]\OML/cmm/m/it/10 tring\OT1/cmr/m/n/10 " :
+ []
+
+
+Overfull \hbox (372.25644pt too wide) in paragraph at lines 311--320
+[]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ]$ 
+ []
+
+! Undefined control sequence.
+l.321 \subsection
+               {String Query}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 321--323
+[]String
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel StringQuery}, caption...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Trying to load font information for +lmr on input line 326.
+
+LaTeX Font Info:    No file lmr.fd. on input line 326.
+LaTeX Font Info:    Trying to load font information for +cmr on input line 326.
+
+LaTeX Font Info:    No file cmr.fd. on input line 326.
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 326.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 326.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.326 Query query = new StringQuery("{ \"m
+                                        atch\": { \"firstname\": { \"query\"...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 326.
+
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 326.
+
+! Argument of \UseTextAccent  has an extra }.
+<inserted text> 
+\par 
+l.326 ...": { \"firstname\": { \"query\": \"Jack\" }
+                                                   } } ");
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UseTextAccent  was complete.
+<to be read again> 
+\par 
+l.326 ...": { \"firstname\": { \"query\": \"Jack\" }
+                                                   } } ");
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 325--326
+[][numbers=none,
+ []
+
+
+Overfull \hbox (16.11115pt too wide) in paragraph at lines 325--326
+\OT1/lmr/m/n/10 \/lmr/m/n/10 m\nullfont atch[]\/lmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.83336pt too wide) in paragraph at lines 325--326
+[]\/lmr/m/n/10 f\nullfont irstname[]\/lmr/m/n/10 :
+ []
+
+
+Overfull \hbox (8.05557pt too wide) in paragraph at lines 325--326
+[]\/lmr/m/n/10 q\nullfont uery[]\/lmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.1389pt too wide) in paragraph at lines 325--326
+[]\/lmr/m/n/10 J\nullfont ack 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 326--329
+[]");
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 330--331
+[]Leider
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 330--331
+Au\OT1/lmr/m/n/10 \nullfont erdem
+ []
+
+! Undefined control sequence.
+l.332 \subsection
+               {Criteria Query}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 332--334
+[]Criteria
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel CriteriaQuery}, capti...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 336--340
+[][numbers=none,
+ []
+
+! Undefined control sequence.
+l.341 \subsection
+               {Native Query}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 341--343
+[]Native
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel NativeQuery}, caption...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 345--357
+[][numbers=none,
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 358--360
+[]SearchHits<Person>
+ []
+
+! Undefined control sequence.
+l.362 \section
+            {Entwicklung der notwendigen Funktionen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 362--363
+[]Entwicklung
+ []
+
+! Undefined control sequence.
+l.364 \subsection
+               {Die Grundfunktionen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 364--366
+[]Die
+ []
+
+
+Overfull \hbox (22.12pt too wide) in paragraph at lines 364--366
+\TU/lmr/m/it/10 Elas-
+ []
+
+
+Overfull \hbox (14.57002pt too wide) in paragraph at lines 364--366
+\TU/lmr/m/it/10 tic-
+ []
+
+
+Overfull \hbox (55.47003pt too wide) in paragraph at lines 364--366
+\TU/lmr/m/it/10 searchRepos-
+ []
+
+
+Overfull \hbox (6.65001pt too wide) in paragraph at lines 364--366
+\TU/lmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (17.51001pt too wide) in paragraph at lines 364--366
+\TU/lmr/m/it/10 tory
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 367--368
+[]Die
+ []
+
+
+Overfull \hbox (18.68001pt too wide) in paragraph at lines 367--368
+\TU/lmr/bx/n/10 ein-
+ []
+
+
+Overfull \hbox (18.63pt too wide) in paragraph at lines 367--368
+\TU/lmr/bx/n/10 tra-
+ []
+
+
+Overfull \hbox (17.41pt too wide) in paragraph at lines 367--368
+\TU/lmr/bx/n/10 gen
+ []
+
+
+Overfull \hbox (31.69pt too wide) in paragraph at lines 367--368
+\TU/lmr/m/it/10 count()
+ []
+
+
+Overfull \hbox (19.93pt too wide) in paragraph at lines 367--368
+\TU/lmr/m/it/10 find-
+ []
+
+
+Overfull \hbox (21.11998pt too wide) in paragraph at lines 367--368
+\TU/lmr/m/it/10 All()\nullfont ,
+ []
+
+
+Overfull \hbox (21.09001pt too wide) in paragraph at lines 367--368
+\TU/lmr/m/it/10 Page\nullfont .
+ []
+
+
+Overfull \hbox (22.49002pt too wide) in paragraph at lines 367--368
+\TU/lmr/m/it/10 page-
+ []
+
+
+Overfull \hbox (16.87001pt too wide) in paragraph at lines 367--368
+\TU/lmr/m/it/10 able
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel Grundfunktionen}, cap...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.377 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 370--378
+[][numbers=none,
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 379--380
+[]Neben
+ []
+
+
+Overfull \hbox (22.49002pt too wide) in paragraph at lines 379--380
+\TU/lmr/m/it/10 page-
+ []
+
+
+Overfull \hbox (16.87001pt too wide) in paragraph at lines 379--380
+\TU/lmr/m/it/10 able
+ []
+
+
+Overfull \hbox (25.87pt too wide) in paragraph at lines 379--380
+\TU/lmr/bx/n/10 num-
+ []
+
+
+Overfull \hbox (19.59001pt too wide) in paragraph at lines 379--380
+\TU/lmr/bx/n/10 mer
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.382 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel Konkatenierte Funktio...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 382--384
+[][numbers=none,
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 385--386
+[]fun
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 387--388
+[]fun
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.390 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.393 \subsection
+               {Die Suchfunktion}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 393--395
+[]Die
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 396--396
+[] 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 403--405
+[]Teilweise
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 406--407
+[]Wie
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 408--409
+[]Erklären
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.411 \begin{lstlisting}
+                      [numbers=none, caption={Beispiel FindByNameContaining}...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.415 { "query_
+             string" : { "query" : "*?*", "fields" : [ "name" ] }, "analyze_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.415 ... : [ "name" ] }, "analyze_wildcard": true }
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.417 }
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.418 }
+     }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.418 }}
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.420 }
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.421 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.421 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.421 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.421 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.421 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.421 \end{lstlisting}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 411--422
+[][numbers=none,
+ []
+
+
+Overfull \hbox (37.80626pt too wide) in paragraph at lines 411--422
+"query$[][]\OML/cmm/m/it/10 tring\/lmr/m/n/10 " :
+ []
+
+
+Overfull \hbox (255.63351pt too wide) in paragraph at lines 411--422
+[]\OML/cmm/m/it/10 ; \/lmr/m/n/10 "\OML/cmm/m/it/10 analyze[]ildcard\/lmr/m/n/1
+0 " :
+ []
+
+
+Overfull \hbox (96.50838pt too wide) in paragraph at lines 411--422
+\OML/cmm/m/it/10 true\/lmr/m/n/10 ]\OML/cmm/m/it/10 ; manufacturer \/lmr/m/n/10
+ :
+ []
+
+
+Overfull \hbox (66.65645pt too wide) in paragraph at lines 411--422
+\OML/cmm/m/it/10 String\/lmr/m/n/10 ?\OML/cmm/m/it/10 ; price \/lmr/m/n/10 :
+ []
+
+
+Overfull \hbox (45.42387pt too wide) in paragraph at lines 411--422
+\OML/cmm/m/it/10 Double\/lmr/m/n/10 ?) :
+ []
+
+
+Overfull \hbox (33.43517pt too wide) in paragraph at lines 411--422
+\OML/cmm/m/it/10 Page <
+ []
+
+
+Overfull \hbox (48.92203pt too wide) in paragraph at lines 411--422
+\OML/cmm/m/it/10 Solution >$ 
+ []
+
+! Undefined control sequence.
+l.423 \subsubsection
+                  {Algorithmus}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 423--424
+[]Algorithmus 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.426 \begin{lstlisting}
+                      [numbers=none, caption={Pseudocode Suchalgorithmus}, c...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 426--427
+[][numbers=none,
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 428--431
+[]//
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 432--434
+[]//
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 435--437
+[]//
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 438--440
+[]//
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 441--442
+[]forEach(suchbegriff
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 443--450
+[]if(ersterSuchbegriff)
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 451--453
+[]//
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 454--456
+[]//
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 458--461
+[]...
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.462 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.464 \subsubsection
+                  {Custom Interface}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 464--466
+[]Custom
+ []
+
+! Undefined control sequence.
+l.467 \subsection
+               {Die Filterfunktion}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.468 Die Filterfunktion filtert \acs
+                                   {ki}-Lösungen anhand ihrer Eigenschaften...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.468 ...n und Werte. So werden am Ende nur die \acs
+                                                  {ki}- Lösungen angezeigt,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.468 ...limmsten Fall alle Eigenschaften einer \acs
+                                                  {ki}-Lösung durchsuchen m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.468 ...ist zu sehen  wie viele Attribute eine \acs
+                                                  {ki}-Lösung besitzt. Das ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 467--469
+[]Die
+ []
+
+
+Overfull \hbox (18.68001pt too wide) in paragraph at lines 467--469
+\TU/lmr/bx/n/10 ein-
+ []
+
+
+Overfull \hbox (13.73pt too wide) in paragraph at lines 467--469
+\TU/lmr/bx/n/10 fü-
+ []
+
+
+Overfull \hbox (17.41pt too wide) in paragraph at lines 467--469
+\TU/lmr/bx/n/10 gen
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.471 \begin{lstlisting}
+                      [numbers=none, caption={Negativbeispiel Filter Funktio...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 471--484
+[][numbers=none,
+ []
+
+! Extra }, or forgotten \endgroup.
+l.485 }
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 \end{lstlisting}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.488 \section
+            {Die API des Servers}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.489 ...tstelle. In diesem Fall wird auf eine  \acs
+                                                  {http} \acs{rest}-Schnitts...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.489 ... diesem Fall wird auf eine  \acs{http} \acs
+                                                  {rest}-Schnittstelle geset...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 488--490
+[]Die
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 488--490
+Au\OT1/lmr/m/n/10 \nullfont en
+ []
+
+! Undefined control sequence.
+l.491 ...erweise bildet eine API mindestens die \acs
+                                                  {crud}-Routen ab. Das \acs...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.491 ...ndestens die \acs{crud}-Routen ab. Das \acs
+                                                  {http} Protokoll bietet da...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 491--492
+[]Typischerweise
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 493--494
+[]Header
+ []
+
+
+! LaTeX Error: Environment description undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 \begin{description}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 \item[\textbf{GET}]
+                        Um Daten vom Server abzurufen, Daten die gesendet we...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.497 \item[\textbf{POST}]
+                         Um Daten an den Server zu versenden.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 \item[\textbf{PUT}]
+                        Um Daten an den Server zu versenden und zu aktualisi...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 \item[\textbf{DELETE}]
+                           Um Ressourcen zu löschen.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.500 \end{description}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.502 ...gabe des Projekts, sowieso durch einen \acs
+                                                  {etl}-Mechanismus von den ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 502--503
+[]Allerdings
+ []
+
+! Undefined control sequence.
+l.504 \section
+            {API-Dokumentation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.505 Eine \acs
+             {api} wird in der Regel dokumentiert. Dies erleichtert den Zugr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 504--506
+[]API-
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.508 \begin{figure}
+                   [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 508--509
+[][H] 
+ []
+
+! Undefined control sequence.
+l.510         \includegraphics
+                            [width=\textwidth]{swagger}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.510         \includegraphics[width=\textwidth]
+                                              {swagger}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.510         \includegraphics[width=\textwidth]
+                                              {swagger}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.511         \caption
+                    {OpenAPI Dokumentation}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.514 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> 4_backend.tex
+              
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 98 strings out of 476473
+ 305230,1977958 words of node,token memory allocated 238234 words of node memory still in use:
+   641 hlist, 1 vlist, 13 rule, 86 disc, 147 local_par, 1 dir, 26 math, 4872 glu
+e, 626 kern, 386 penalty, 26953 glyph, 741 attribute, 41 glue_spec, 741 attribut
+e_list, 1 temp, 8 write nodes
+   avail lists: 2:1,3:220,4:97,5:12,8:566,10:96
+ 22281 multiletter control sequences out of 65536+600000
+ 27 fonts using 1560063 bytes
+ 24i,6n,32p,934b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
