@@ -2,7 +2,7 @@
 
 Dies ist eine Vorlage für eine Bachelorarbeit an der Westfälischen Hochschule in Gelsenkirchen. Die Vorlage basiert auf der KOMA-Script-Klasse `scrreprt` und ist für die Verwendung von `biblatex` zur Literaturverwaltung konfiguriert. Die Vorlage enthält Beispiele für die Verwendung von Bildern, Tabellen, Quellcode und Literaturverweisen. Die Vorlage ist so konfiguriert, dass sie mit `Texmaker` und `Miktex` verwendet werden kann.
 
-Die Vorlage ist an dem Beispiel von [Nico Hülscher](https://de.overleaf.com/latex/templates/vorlage-bachelorarbeit-informatik-westfalische-hochschule/ympzbtzjqhdd) und wurde von mir nach meinen Bedürfnissen geändert.
+Die Vorlage orientiert sich am Beispiel von [Nico Hülscher](https://de.overleaf.com/latex/templates/vorlage-bachelorarbeit-informatik-westfalische-hochschule/ympzbtzjqhdd) und wurde von mir nach meinen Bedürfnissen geändert. Da Overleaf nicht komplett kostenlos ist (Compilezeit), wurde die Vorlage auf Github veröffentlicht.
 
 ## Voraussetzungen
 
